@@ -1,7 +1,7 @@
 export const jobs =  [
   {
     title: 'Goss',
-    image: '/public/goss.gif',
+    image: '/goss.gif',
     desc: 'A social media platform where users share voice notes instead of written posts. Like Twitter, but for audio content.',
     role: 'Full stack development. UI/UX design, relational database design, Next.js components.',
     skills: [
@@ -16,7 +16,7 @@ export const jobs =  [
   },
   {
     title: 'Geni Jobs',
-    image: '/public/genijobs.gif',
+    image: '/genijobs.gif',
     desc: 'A job listing platform that empowers users to vote on the authenticity of job postings.',
     role: 'Refactoring a legacy codebase. TypeScript conversion and testing.',
     skills: [
@@ -29,7 +29,7 @@ export const jobs =  [
   },
   {
     title: 'GearSwap',
-    image: '/public/gearswap.gif',
+    image: '/gearswap.gif',
     desc: 'An app which helps music creators connect with like minded individuals to arrange free short-term equipment trades.',
     role: 'Full-stack development: entire development lifecycle from initial concept to final implementation',
     skills: [
