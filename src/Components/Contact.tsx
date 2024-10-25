@@ -23,7 +23,7 @@ export default function Contact () {
 
         <div className='w-2/5 bg-myRed rounded-md p-8'>
           <div className='text-2xl'>
-            <form target="_blank" action="https://formsubmit.co/d08a8762980636fb8eeaef99e7326843">
+            <form target="_blank" action="https://formsubmit.co/d08a8762980636fb8eeaef99e7326843" method='POST'>
               <div className='flex flex-col gap-4'>
                 <div>
                   <label htmlFor="name">Name:</label>
