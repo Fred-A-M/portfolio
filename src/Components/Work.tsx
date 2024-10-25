@@ -7,7 +7,7 @@ export default function Work() {
 
   return (
     <>
-      <div className='flex gap-32 text-myBlue'>
+      <div className='flex gap-[10vw] text-myBlue'>
         {jobs.map((job) => {
           return <JobBox key={job.title} job={job} />;
         })}
