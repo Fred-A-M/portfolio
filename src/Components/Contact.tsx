@@ -12,10 +12,10 @@ export default function Contact () {
           </div>
           <div className='flex gap-4 justify-center sm:justify-start'>
             <a href="https://github.com/Fred-A-M" target='_blank'>
-              <img src="src/assets/git.png" alt="GitHub" className='h-[10vh] sm:h-[15vh] hover:cursor-pointer hover:border-4 border-myBlue rounded-full' />
+              <img src="public/git.png" alt="GitHub" className='h-[10vh] sm:h-[15vh] hover:cursor-pointer hover:border-4 border-myBlue rounded-full' />
             </a>
             <a href="https://www.linkedin.com/in/frederic-moore/" target='_blank'>
-              <img src="src/assets/linked.png" alt="LinkedIn" className='h-[10vh] sm:h-[15vh] hover:cursor-pointer hover:border-4 border-myBlue rounded-xl' />
+              <img src="public/linked.png" alt="LinkedIn" className='h-[10vh] sm:h-[15vh] hover:cursor-pointer hover:border-4 border-myBlue rounded-xl' />
             </a>
           </div>
         </div>
