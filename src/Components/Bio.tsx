@@ -5,7 +5,7 @@ export default function Bio() {
     <>
       <div className='w-full flex flex-col items-center justify-center gap-3 text-xl sm:text-3xl'>
         <div className='flex flex-col sm:w-2/5 text-center gap-3'>
-          <img src='/Square.jpg' className='rounded-full w-48 h-48 mx-auto border-4 border-myRed' alt='Frederic Moore'/>
+          <img src='/Square.jpg' className='rounded-full h-[25vh] sm:h-48 mx-auto border-4 border-myRed' alt='Frederic Moore'/>
           <p className=' text-myRed'>
             {bio.name}
           </p>

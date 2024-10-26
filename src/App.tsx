@@ -29,14 +29,14 @@ export default function App() {
         </div>
       </ParallaxLayer>
           
-      <ParallaxLayer offset={1} speed={0} factor={1} className='bg-black'>
+      <ParallaxLayer offset={1} speed={0} factor={1} className='bg-black '>
       </ParallaxLayer>
-      <ParallaxLayer offset={1} speed={isPhoneElse(0.1, 0.4)} factor={1} className='bg-black'>
+      <ParallaxLayer offset={1.02} speed={isPhoneElse(0.1, 0.4)} factor={0.9} className='z-50'>
         <Bio/>
       </ParallaxLayer>
       
       {/* WorkSection */}
-      <ParallaxLayer offset={2} speed={0} factor={1} sticky={{ start: 2, end: 3.5 }} className='bg-gradient-to-b from-black to-[#0a419f]'>
+      <ParallaxLayer offset={2} speed={0} factor={1} sticky={{ start: 2, end: 3.5 }} className='bg-gradient-to-b from-black to-[#0a419f] z-40'>
         <ParallaxLayer horizontal={true} offset={isPhoneElse(0, 0.25)} factor={2} speed={isPhoneElse(-0.02, -0.1)}>
           <div className='text-5xl sm:text-8xl mt-[25vh] sm:mt-[15vh]'>
             Recent Work
