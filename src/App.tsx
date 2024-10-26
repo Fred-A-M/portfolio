@@ -17,13 +17,13 @@ export default function App() {
       {/* Top Section with name*/}
       <ParallaxLayer offset={isPhoneElse(0.5, 0.4)} speed={1} factor={isPhoneElse(0.2, 0.3)} className='bg-myRed z-50'>
         <div className="flex h-full items-end justify-between">
-          <div className="text-[10vw] sm:text-[8vw] ml-[5vw]">fred-a-m.dev</div>
+          <div className="text-[10vw] sm:text-[8vw] ml-[5vw]">fred-a-m</div>
           <div className="mr-[5vw] text-[3vw] sm:text-[2vw] mb-[2vh] sm:mb-[5vh] animate-blink">{`(scroll down)`}</div>
         </div>
       </ParallaxLayer>
 
       <ParallaxLayer horizontal={true} offset={0} speed={4} factor={7} className="bg-myBlue">
-        <div className="text-[40vw] sm:text-[15vw] ml-[20vw] mt-[70vh] sm:mt-[62vh] flex gap-8 items-center">
+        <div className="text-[40vw] sm:text-[15vw] ml-[20vw] mt-[65vh] sm:mt-[59vh] flex gap-8 items-center">
           <div className="text-orange-400">Freelance developer</div>
           <div className="text-white">: London</div>
         </div>
@@ -31,7 +31,7 @@ export default function App() {
           
       <ParallaxLayer offset={1} speed={0} factor={1} className='bg-black'>
       </ParallaxLayer>
-      <ParallaxLayer offset={1} speed={isPhoneElse(0.1, 0.4)} factor={0.5} className='bg-black'>
+      <ParallaxLayer offset={1} speed={isPhoneElse(0.1, 0.4)} factor={1} className='bg-black'>
         <Bio/>
       </ParallaxLayer>
       
