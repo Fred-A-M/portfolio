@@ -1,7 +1,7 @@
 export default function Contact () {
   return (
     <>
-    <div className='w-screen h-screen flex flex-col sm:justify-center items-center'>
+    <div className='w-screen h-screen flex flex-col sm:justify-center items-center p-1'>
       <div className='text-4xl sm:text-8xl mb-[2vh] sm:mb-12 mt-[2vh] sm:mt-0'>
         Get in touch
       </div>
