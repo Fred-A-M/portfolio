@@ -4,9 +4,9 @@ import { musicTools } from '../tools';
 export default function Music () {
   return (
     <>
-    <div className='p-28 w-full h-full flex flex-col items-center'>
-      <div className='w-full max-w-[80vw]'>
-        <div className='text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl mb-[2vh] sm:mb-[5vh] text-center md:text-right'>
+    <div className='w-full h-full flex flex-col items-center'>
+      <div className='w-full max-w-[80vw] text-center'>
+        <div className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl mb-[2vh] sm:mb-[5vh] text-center md:text-right'>
           Musical Interfaces
         </div>
       </div>
