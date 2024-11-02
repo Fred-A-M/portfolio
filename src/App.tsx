@@ -9,7 +9,7 @@ import Music from './Components/Music'
 export default function App() {
 
   function isPhoneElse (a: number, b: number) {
-    return window.innerWidth < 1024 ? a : b
+    return window.innerWidth < 768 ? a : b
   }
 
   return (
