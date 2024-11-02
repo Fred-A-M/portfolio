@@ -71,3 +71,26 @@ export const bio = {
   about: 'A Goldsmiths alumni, where I initially honed my skills across multiple programming languages to build unique and unconventional software solutions for musicians. Since then I have over 7 years experience working in fast-paced, high-pressure teams.',
   tools: tools,
 }
+
+export const musicTools = [
+  {
+    gif: '/1.gif',
+    link: 'https://www.youtube.com/watch?v=0OouysHatHs',
+  },
+  {
+    gif: '/2.gif',
+    link: 'https://www.youtube.com/watch?v=4wnhTGyKtJQ',
+  },
+  {
+    gif: '/3.gif',
+    link: 'https://www.youtube.com/watch?v=5eUvEKk5wOo',
+  },
+  {
+    gif: '/4.gif',
+    link: 'https://www.youtube.com/watch?v=0VI_vpvCxkM',
+  },
+  {
+    gif: '/5.gif',
+    link: 'https://www.youtube.com/watch?v=oqFyN4dxBtg',
+  },
+]

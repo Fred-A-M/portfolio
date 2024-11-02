@@ -11,8 +11,8 @@ interface JobBoxProps {
 export default function JobBox({ job }: JobBoxProps) {
   return (
     <>
-      <div className='relative group'>
-      <div className='bg-jobBox hover:cursor-pointer shadow-2xl flex-shrink-0 w-[70vw] sm:w-[35vw] rounded-md text-xl sm:text-3xl flex flex-col px-2 pb-2 sm:p-4'>
+      <div className='relative group z-40'>
+      <div className='bg-jobBox hover:cursor-pointer shadow-2xl flex-shrink-0 w-[70vmin] rounded-md text-xl sm:text-3xl flex flex-col justify-center px-2 pb-2 sm:p-4'>
         <div className='mb-[0.5vh]'>
           {job.title}
         </div>

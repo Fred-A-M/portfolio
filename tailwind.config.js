@@ -14,7 +14,7 @@ export default {
         myRed: '#d91900',
         myBlue: '#1583ff',
         jobBox: '#36454F',
-        jobBoxHover: '#5a6871',
+        jobBoxHover: '#465056',
       },
       animation: {
         blink: 'blink 1s step-start infinite'
