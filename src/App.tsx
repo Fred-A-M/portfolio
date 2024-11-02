@@ -3,6 +3,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import Work from './Components/Work'
 import Bio from './Components/Bio'
 import Contact from './Components/Contact'
+import Music from './Components/Music'
 
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
 
   return (
     <>
-    <Parallax pages={6}> 
+    <Parallax pages={isPhoneElse(8, 7)}> 
       {/* Top Section with name*/}
       <ParallaxLayer offset={isPhoneElse(0.5, 0.4)} speed={1} factor={isPhoneElse(0.2, 0.3)} className='bg-myRed z-50'>
         <div className="flex h-full items-end justify-between">
@@ -43,15 +44,17 @@ export default function App() {
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer horizontal={true} offset={1.5} speed={1} factor={3} className='mt-[35vh] '>
+        <ParallaxLayer horizontal={true} offset={1.5} speed={1} factor={2} className='mt-[35vh] '>
           <Work/>
         </ParallaxLayer>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={4.5} factor={0.5} className='bg-gradient-to-b from-[#0a419f] to-myBlue'/>
+      <ParallaxLayer offset={4.5} speed={0} factor={isPhoneElse(2.5, 1.5)} className='bg-gradient-to-b from-[#0a419f] to-myBlue' />
+      <ParallaxLayer offset={isPhoneElse(4.8, 4.8)} speed={isPhoneElse(0.8, 0.2)} factor={1.5}>
+        <Music/>
+      </ParallaxLayer>
 
-
-      <ParallaxLayer offset={5} speed={0} factor={1} className='bg-myBlue'>
+      <ParallaxLayer offset={isPhoneElse(7, 6)} speed={0} factor={1} className='bg-myBlue'>
         <Contact/>
       </ParallaxLayer>
 
