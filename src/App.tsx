@@ -25,7 +25,7 @@ export default function App() {
 
       <ParallaxLayer horizontal={true} offset={0} speed={4} factor={7} className="bg-myBlue">
         <div className="text-[40vw] sm:text-[15vw] ml-[20vw] mt-[65vh] sm:mt-[59vh] flex gap-8 items-center">
-          <div className="text-orange-400">Freelance developer</div>
+          <div className="text-orange-400">Full-stack developer</div>
           <div className="text-white">: London</div>
         </div>
       </ParallaxLayer>
